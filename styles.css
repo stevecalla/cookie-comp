@@ -4,3 +4,132 @@
  cookie image is linked, but feel free to use your own if you want!
  (card) box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);
 */
+body {
+    background-color: #ecf0f1;
+    font-family: 'Open Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 55px;
+}
+
+.cookie-box {
+    height: 200px;
+    width: 68%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.cookie-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.recipe-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 68%;
+    margin: 0%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.20), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.recipe-title {
+    diplay: flex;
+    margin-left: 20px;
+}
+
+.recipe {
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+
+.ingredients {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.ingredients-list {
+    list-style-type: square;
+}
+
+.directions {
+    width: 50%;
+}
+
+.cooking-steps {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* animation: pulse 5s infinite; */
+    /* animation-name: slidein; */
+    /* animation-name: appear;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; */
+  }
+
+  /* @keyframes appear {
+    from {
+      opacity: 0%;
+    }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+} */
+
+/* @keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+} */
+  
+  /* @keyframes pulse {
+    0%, 100% {
+      background-color: grey;
+    }
+    50% {
+      background-color: white;
+    }
+  } */
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 0;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+ul {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+p {
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 10px;
+}
