@@ -65,13 +65,47 @@ body {
     padding: 0;
     /* animation: pulse 5s infinite; */
     /* animation-name: slidein; */
-    /* animation-name: appear;
+    /* animation-name: disappear;
     animation-duration: 5s;
     animation-direction: alternate;
     animation-iteration-count: infinite; */
   }
 
+  /* .cooking-steps-back {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    animation-name: appear;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  } */
+
+
+  @keyframes disappear {
+    from {
+        backface-visibility: visible;
+    }
+  
+    to {
+        backface-visibility: none;
+        transform: rotateY(360deg) translateZ(50px);
+    }
+  }
+
   /* @keyframes appear {
+    from {
+        backface-visibility: none;
+        
+    }
+  
+    to {
+        backface-visibility: visible;
+        transform: rotateY(180deg) translateZ(50px);
+  } */
+
+/* 
+  @keyframes appear {
     from {
       opacity: 0%;
     }
